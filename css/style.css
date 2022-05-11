@@ -29,6 +29,10 @@ section{
     padding:2rem 9%;
 }
 
+section:nth-child(even){
+    background: rgb(245, 245, 212);
+}
+
 .sub-heading{
     text-align: center;
     color:var(--green);
@@ -48,7 +52,7 @@ section{
     margin-top: 1rem;
     display: inline-block;
     font-size: 1.7rem;
-    color:rgba(255, 255, 255, 0.74);
+    color:#fff;
     background: var(--black);
     border-radius: .5rem;
     cursor: pointer;
@@ -63,7 +67,7 @@ section{
 header{
     position: fixed;
     top:0; left: 0; right:0;
-    background: rgba(255, 255, 255, 0.397);
+    background: rgba(255, 255, 255, 0.527);
     padding:1rem 7%;
     display: flex;
     align-items: center;
@@ -223,7 +227,7 @@ header .icons #menu-bars{
     padding:2.5rem;
     background:#fff;
     border-radius: .5rem;
-    border:.1rem solid rgba(255, 255, 255, 0.2);
+    border:.1rem solid rgba(0,0,0,.2);
     box-shadow: var(--box-shadow);
     position: relative;
     overflow: hidden;
@@ -334,7 +338,7 @@ header .icons #menu-bars{
 .about .row .content .icons-container .icons{
     background:#eee;
     border-radius: .5rem;
-    border:.1rem solid rgba(255, 255, 255, 0.2);
+    border:.1rem solid rgba(0,0,0,.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,7 +365,7 @@ header .icons #menu-bars{
 
 .menu .box-container .box{
     background: #fff;
-    border:.1rem solid rgba(255, 255, 255, 0.2);
+    border:.1rem solid rgba(0,0,0,.2);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);    
 }
@@ -434,7 +438,7 @@ header .icons #menu-bars{
 .review .slide{
     padding:2rem;
     box-shadow:var(--box-shadow);
-    border:.1rem solid rgba(255, 255, 255, 0.2);
+    border:.1rem solid rgba(0,0,0,.2);
     border-radius: .5rem;
     position: relative;    
 }
@@ -481,7 +485,7 @@ header .icons #menu-bars{
     max-width:90rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    border:.1rem solid rgba(255, 255, 255, 0.2);
+    border:.1rem solid rgba(0,0,0,.2);
     background:#fff;
     padding:1.5rem;
     margin:0 auto;
@@ -638,8 +642,8 @@ header .icons #menu-bars{
         position: absolute;
         top:100%; left:0; right:0;
         background:#fff;
-        border-top: .1rem solid rgba(255, 255, 255, 0.2);
-        border-bottom: .1rem solid rgba(255, 255, 255, 0.2);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
         padding:1rem;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
