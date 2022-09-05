@@ -219,7 +219,7 @@ header .icons #menu-bars{
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap:2rem; 
+    gap:5rem; 
     padding-top: 9rem;
 }
 
