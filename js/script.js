@@ -41,7 +41,7 @@ document.querySelector('#close').onclick = () =>{
 }
 
 var swiper = new Swiper(".home-slider", {
-  spaceBetween: 30,
+  spaceBetween: 40,
   centeredSlides: true,
   autoplay: {
     delay: 7500,
@@ -55,7 +55,7 @@ var swiper = new Swiper(".home-slider", {
 });
 
 var swiper = new Swiper(".review-slider", {
-  spaceBetween: 20,
+  spaceBetween: 17,
   centeredSlides: true,
   autoplay: {
     delay: 7500,
